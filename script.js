@@ -16,7 +16,7 @@ function leaveGroup() {
     }
     setTimeout(() => {
       // Проверка на наличие кнопок
-      const emptyCheck = !!document.querySelector('.closeButton-mupH76');
+      const emptyCheck = !!document.querySelector(closeBtnClassname);
       if (emptyCheck) {
         leaveGroup();
       }
